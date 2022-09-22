@@ -12,6 +12,29 @@
   --title-colour: #212121;
   --port-btn-bcg-colour: #f5f4fa;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -19,6 +42,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--maint-text-colour);
   background-color: var(--main-bcg-colour);
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list {
@@ -106,7 +135,6 @@ body {
   background-color: var(--buttom-colour);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  cursor: pointer;
 }
 /*--------------fEATURES--------------*/
 
@@ -206,7 +234,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  cursor: pointer;
   color: var(--title-colour);
   background-color: var(--port-btn-bcg-colour);
 }
