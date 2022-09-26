@@ -86,7 +86,7 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: var(--contacts-footer-colour);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .page-header {
   display: flex;
@@ -414,7 +414,6 @@ body {
 
 .port-title {
   margin-bottom: 4px;
-
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
